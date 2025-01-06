@@ -1,15 +1,37 @@
-# rocket.chat
-Rocket.chat - Docker compose
-
-Ver en "localhost:3000"
-
-Comandos utilizados:
-
-$ git clone https://github.com/mclitos/rocket.chat
-
-$ cd rocket.chat
-
-$ docker-compose up -d
+## Instalación Rocket Chat Docker
 
 
-NOTA- En algunas distribuciones me ha dado problemas la versión 5 de mongodb, por este motivo está puesta la v:4.4
+hacerce Root:
+```
+sudo su
+```
+
+Copiar el Repositorio
+```
+git clone https://github.com/mclitos/rocket.chat
+```
+
+Si no tiene instalado git, puede ejecutar:
+```
+apt install git
+```
+
+Cambiar al nuevo directorio:
+```
+cd rocket.chat
+```
+
+Crear el compose:
+```
+docker compose pull
+```
+
+Levantar y ejecutar Rockerchat:
+```
+docker compose up -d && docker compose logs
+```
+
+Abrir el Navegadoir:
+```
+http://tuipservidor:3000
+```
