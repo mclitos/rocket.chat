@@ -5,7 +5,7 @@ Ver en "localhost:3000"
 
 Comandos utilizados:
 
-$ git clone https://github.com/jmlcas/rocket.chat
+$ git clone https://github.com/mclitos/rocket.chat
 
 $ cd rocket.chat
 
